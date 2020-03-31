@@ -1,0 +1,24 @@
+{
+  "name": "comic-daily",
+  "version": "1.0.0",
+  "description": "每日更新漫画",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvelYang/comicDaily.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvelYang/comicDaily/issues"
+  },
+  "homepage": "https://github.com/MarvelYang/comicDaily#readme",
+  "dependencies": {
+    "x-ray": "^2.3.4"
+  }
+}
