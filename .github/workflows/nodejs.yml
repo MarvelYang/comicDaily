@@ -27,3 +27,15 @@ jobs:
           npm run start
         env:
           CI: true
+      - name: Send mail
+        uses: dawidd6/action-send-mail@master
+        with:
+          server_address: stmp.163.com
+          server_port: 465
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: 贴吧更新
+          body: file://tieba.html
+          to: 692691288@qq.com
+          from: livunyang@163.com
+          content_type: text/html
