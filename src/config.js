@@ -1,9 +1,9 @@
 const books = [
     {
-        title: '黑色五叶草'
-    }
+        title: '海贼王',
+    },
 ];
 
 module.exports = {
-    books
+    books,
 };

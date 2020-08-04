@@ -12,17 +12,17 @@ const books = require('./config').books;
         [
             {
                 title: 'a',
-                link: 'a@href'
-            }
+                link: 'a@href',
+            },
         ]
     )
         .paginate('.next.pagination-item@href')
         .limit(2);
 
-    const tieList = data.map(item => {
+    const tieList = data.map((item) => {
         return {
             name: books[0].title,
-            ...item
+            ...item,
         };
     });
 
